@@ -72,7 +72,7 @@ function append(string, info){
 }
 
 function printCharacter(characterString) {
-    document.getElementById('characterInfo').innerText = characterString
+    document.getElementById('characterInfo').innerHTML = characterString
 }
 
 function getVillan() {
